@@ -42,7 +42,7 @@ broker_address = "127.0.0.1"  # Broker address
 port = 1883  # Broker port
 
 #Task-2 Write code here
-client = mqttClient.Client()  # create new instance
+client =   # create new instance
 
 client.on_connect = on_connect  # attach function to callback
 client.on_message = on_message  # attach function to callback
