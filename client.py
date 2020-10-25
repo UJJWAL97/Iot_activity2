@@ -28,7 +28,7 @@ def on_message(client, userdata, message):
 
 curr=location_generator()
 #Task-1 Write code here
-client_name=
+
 
 
 
