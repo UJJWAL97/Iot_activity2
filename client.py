@@ -35,10 +35,14 @@ curr=location_generator()
 
 
 #Task-2 Write code here
+ # create new instance MQTT client 
+client 
+
+client.on_connect = on_connect  # attach function to callback
+client.on_message = on_message  # attach function to callback
 
 
-
-
+client.connect(broker_address, port=port)  # connect to broker
 
 
 
