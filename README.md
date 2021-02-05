@@ -7,7 +7,7 @@
 * Complete on_message() method.
 * * Extract location data from received message.
 * * Extract client name from received message.
-* Calculate Distance from your current location.(Distance function is provided).
-*Store the client name if distance is less than 20 meters in list contacts already defined
+* * Calculate Distance from your current location.(Distance function is provided).
+* * Store the client name if distance is less than 20 meters in list contacts already defined
 * To test your code run activity2.sh
 
